@@ -43,22 +43,22 @@ void main()
 		n1 = userInput / 10000;
 		std::cout << n1 << std::endl;
 
-		//UserInput divisé par 1000, mémorise les entiers. Modulus des entiers par 10 déplace la virgule, affiche modulus donc chiffre 2
+		//UserInput divisé par 1000, mémorise les entiers. Modulo par 10, affiche modulo donc chiffre 2
 		n2 = userInput / 1000;
 		n2 = n2 % 10;
 		std::cout << n2 << std::endl;
 
-		//UserInput divisé par 100, mémorise les entiers. Modulus des entiers par 10 déplace la virgule, affiche moudulus donc chiffre 3
+		//UserInput divisé par 100, mémorise les entiers. Modulo par 10, affiche moudulo donc chiffre 3
 		n3 = userInput / 100;
 		n3 = n3 % 10;
 		std::cout << n3 << std::endl;
 
-		//UserInput divisé par 10, mémorise les entiers. Modulus des entiers par 10 déplace la virgule, affiche moudulus donc chiffre 4
+		//UserInput divisé par 10, mémorise les entiers. Modulo par 10, affiche moudulo donc chiffre 4
 		n4 = userInput / 10;
 		n4 = n4 % 10;
 		std::cout << n4 << std::endl;
 
-		//Userinput modulus 10 et affiche le chiffre 5
+		//Userinput modulo 10 et affiche le chiffre 5
 		n5 = userInput % 10;
 		std::cout << n5 << std::endl;
 

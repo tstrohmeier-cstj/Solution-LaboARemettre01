@@ -39,7 +39,7 @@ void main()
 	//Vérification du input utilisateur pour savoir si le nombre est pair ou impair. Si pair, un message affiche,
 	//si impair, un message affiche
 	//Explication: 
-	//Si le Modulus de l'opération est 0, le chiffre est pair, si il y a un reste, le chiffre est impair
+	//Si le Modulo de l'opération est 0, le chiffre est pair, si il y a un reste, le chiffre est impair
 	if (resteDivision == 0)
 	{
 		std::cout << nombreEntier << " est un nombre pair.";
