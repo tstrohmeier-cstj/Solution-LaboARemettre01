@@ -7,7 +7,7 @@
 
 void main()
 {
-	//Variables programme:
+	//Déclaration des variables programme:
 		int nombreEntier;
 		int resteDivision;
 
@@ -39,14 +39,15 @@ void main()
 	}
 
 	/*
-		-Test effectués aux étapes test en commentaires utilisant -1, 0, 1
-		-Test effectués en fin de programme avec les valeurs suivantes :
-			56: 56 est un nombre pair
-			-48: -48 est un nombre pair
-			33: 33 est un nombre pair
-			-249: -249 est un nombre impair
-			1: 1 est un nombre impair
-			0: 0 est un nombre pair
-			-1: -1 est un nombre impair
+
+		Plan de test:
+			userInput:		résultat attendu:					affichage écran:
+
+			56:				56		est un nombre pair			56	est un nombre pair
+			-48:			-48		est un nombre pair			-48	est un nombre pair
+			a:				erreur								0 est un nombre pair
+			1:				1		est un nombre impair		1 est un nombre impair
+			0:				0		est un nombre pair			0 est un nombre pair
+			-1:				-1		est un nombre impair		-1 est un nombre impair
 	*/
 }
