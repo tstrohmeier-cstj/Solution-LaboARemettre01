@@ -2,17 +2,14 @@
 //Auteur: Tom Strohmeier
 //Date: 2021-09-01
 
+//Instructions:
 #include <iostream>
-#include <string>
 
 void main()
 {
 	//Variables programme:
 		int nombreEntier;
-		int resultat;
-		int operation;
 		int resteDivision;
-
 
 	//Demande un nombre entier à l'utilisateur
 	std::cout << "Veuillez entrer un nombre entier: ";
@@ -26,15 +23,7 @@ void main()
 			*/
 
 	//Opération pour connaitre le restant de l'ôpération 
-	operation = nombreEntier / 2;
 	resteDivision = nombreEntier % 2;
-
-			/*
-			Test programme(ok)
-			std::cout << "Le resultat de " << nombreEntier << " / 2 = " << operation << std::endl;
-			std::cout << "Le restant de " << nombreEntier << " modulus 2 = " << resteDivision << std::endl;
-			system("pause");
-			*/
 
 	//Vérification du input utilisateur pour savoir si le nombre est pair ou impair. Si pair, un message affiche,
 	//si impair, un message affiche
@@ -60,5 +49,4 @@ void main()
 			0: 0 est un nombre pair
 			-1: -1 est un nombre impair
 	*/
-
 }
